@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color:beige ;
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-transform: capitalize;
+}
+
+header {
+    background: black;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+#home {
+    padding: 60px 5%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.main img {
+    object-fit: cover;
+    height: auto;
+    border-radius: 50%;
+}
+.sub-main img{
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+.words {
+    max-width: 600px;
+}
+
+.words h1 {
+    font-size: 40px;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.words p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.sub-main {
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-main button {
+    padding: 12px 22px;
+    font-size: 18px;
+    background:  #141c24;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub-main button:hover {
+    background: #002244;
+}
+
+section {
+    padding: 60px 5%;
+    background: transparent;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+section h1 {
+    font-size: 36px;
+    color: #141c24;
+    margin-bottom: 15px;
+}
